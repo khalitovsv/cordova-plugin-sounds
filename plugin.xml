@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        id="org.apache.cordova.sounds"
+        version="1.0">
+    <name>Sounds</name>
+    <description>Cordova Sounds Plugin</description>
+    <license>Apache 2.0</license>
+    <keywords>cordova,sounds</keywords>
+    <js-module src="www/sounds.js" name="Sounds">
+        <clobbers target="navigator.sounds" />
+    </js-module>
+    <platform name="android">
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="Sounds">
+            <param name="android-package" value="org.apache.cordova.sounds.Sounds"/>
+            </feature>
+        </config-file>
+
+        <source-file src="src/android/Sounds.java" target-dir="src/org/apache/cordova/sounds" />
+    </platform>
+</plugin>
