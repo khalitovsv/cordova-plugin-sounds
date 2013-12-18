@@ -17,5 +17,5 @@ Usage
 
 Installation (Cordova CLI)
 --------------------------
-cordova plugin add https://github.com/khalitovsv/cordova-plugin-sounds.git
+    cordova plugin add https://github.com/khalitovsv/cordova-plugin-sounds.git
 
