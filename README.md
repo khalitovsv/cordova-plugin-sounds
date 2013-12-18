@@ -1,6 +1,12 @@
 Cordova Sounds Plugin (Android only)
 ------------------------------------
-You can play native Android sounds with that plugin
+You can play native Android sounds with that plugin.
+
+Installation (Cordova CLI)
+--------------------------
+To install this plugin, follow the [Command-line Interface Guide](http://cordova.apache.org/docs/en/edge/guide_cli_index.md.html#The%20Command-line%20Interface).
+
+    cordova plugin add https://github.com/khalitovsv/cordova-plugin-sounds.git
 
 Usage
 -----
@@ -14,8 +20,3 @@ Usage
     navigator.sounds.left();      // FX_FOCUS_NAVIGATION_LEFT
     navigator.sounds.right();     // FX_FOCUS_NAVIGATION_RIGHT
     navigator.sounds.up();        // FX_FOCUS_NAVIGATION_UP
-
-Installation (Cordova CLI)
---------------------------
-    cordova plugin add https://github.com/khalitovsv/cordova-plugin-sounds.git
-
