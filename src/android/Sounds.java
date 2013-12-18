@@ -3,7 +3,6 @@ package org.apache.cordova.sounds;
 import org.apache.cordova.CallbackContext;
 import org.apache.cordova.CordovaPlugin;
 import org.json.JSONArray;
-import org.json.JSONException;
 
 import android.media.AudioManager;
 
